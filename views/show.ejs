@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokemon App</title>
+  </head>
+  <body>
+    <h1>Pokemon show page</h1>
+    The name of this Pokemon is <%= pokemon.name %>
+    <br>
+    <a href="/pokemon/<%=index%>">
+        <img src="<%= pokemon.img%>">
+    </a><br>
+    Stats: <%= pokemon.stats.hp %>
+    
+    <br>
+    type: <%= pokemon.type.join(', ') %>
+    <br>
+    <a href="/pokemon/<%=index%>/edit">Click Here to Edit</a>
+  </body>
+</html>

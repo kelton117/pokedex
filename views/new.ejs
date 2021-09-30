@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Create New Pokemon</title>
+  </head>
+  <body>
+    <h1>New Pokemon page</h1>
+    <!--  NOTE: action will be the route, method will be the HTTP verb-->
+    <form action="/pokemon" method="POST" autocomplete="off">
+      Name: <input type="text" name="name"><br>
+      Type: <input type="text" name="type"><br>
+      HP: <input type="text" name="hp"><br>
+      ATTACK: <input type="text" name="attack"><br>
+      DEF: <input type="text" name="defense"><br>
+      <input type="submit" value="Create Pokemon" />
+    </form>
+  </body>
+</html>
